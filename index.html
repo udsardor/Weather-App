@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/icons/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="app-wrap">
         <main>
             <section class="location">
-                <div class="city">UZBEKISTAN, UZ</div>
-                <div class="date">Saturday 2 july 2022</div>
+                <div class="city"></div>
+                <div class="date"></div>
             </section>
             <div class="main-temp">
-                <div class="temp">10 <span>*</span></div>
-                <div class="weather">Hot</div>
-                <div class="hi-low">33*c / 40*c</div>
+                <div class="temp"><span>°C</span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
             </div>
         </main>
         <header>
-            <input type="text" autocomplete="off" class="search-box" placeholder="Search...">
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search..."  value="Tashkent">
         </header>
     </div>
     <script src="app.js"></script>
